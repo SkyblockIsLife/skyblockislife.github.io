@@ -1,1 +1,0 @@
-# skyblockislife.github.io
