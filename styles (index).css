@@ -29,7 +29,7 @@ body {
     margin-left: 10px;
     cursor: pointer;
     font-weight: bold;
-    margin-top: 500px;
+    margin-top: 50px;
   }
   
   .nav-button:hover {
@@ -46,9 +46,4 @@ body {
 
   .button:hover {
     background-color: #7a7a7a; /* Slightly darker grey on hover */
-  }
-
-  .blog-content {
-    margin-top: 60px;
-    padding: 20px;
   }
