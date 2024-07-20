@@ -1,0 +1,53 @@
+
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a background color that matches with everything else */
+body {
+    background-color: #f2f2f2;
+}
+
+/* Style the TODO list container */
+.todo-list {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the TODO list items */
+.todo-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the TODO list item text */
+.todo-item-text {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Style the TODO list item checkbox */
+.todo-item-checkbox {
+    margin-right: 10px;
+}
+
+/* Style the TODO list item checkbox label */
+.todo-item-checkbox-label {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Style the TODO list item checkbox when checked */
+.todo-item-checkbox:checked + .todo-item-checkbox-label {
+    text-decoration: line-through;
+    color: #999;
+}
