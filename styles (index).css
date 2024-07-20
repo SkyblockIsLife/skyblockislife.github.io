@@ -7,7 +7,6 @@ body {
   header {
     background-color: rgba(7, 48, 76, 0.231);
     color: white;
-    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
