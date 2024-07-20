@@ -10,6 +10,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px;
   }
   
   h1 {
@@ -28,6 +29,7 @@ body {
     margin-left: 10px;
     cursor: pointer;
     font-weight: bold;
+    margin-top: 10px;
   }
   
   .nav-button:hover {
